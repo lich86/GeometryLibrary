@@ -1,6 +1,6 @@
 package com.chervonnaya;
 
-public record Circle(double radius) {
+public record Circle(double radius) implements ComparableFigures {
 
     public double getArea() {
         return Math.PI * radius * radius;

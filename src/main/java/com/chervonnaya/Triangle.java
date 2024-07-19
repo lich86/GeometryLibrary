@@ -1,7 +1,7 @@
 package com.chervonnaya;
 
 
-public record Triangle(double side1, double side2, double side3) {
+public record Triangle(double side1, double side2, double side3) implements ComparableFigures {
 
     public double getArea() {
         double s = getPerimeter() / 2;
