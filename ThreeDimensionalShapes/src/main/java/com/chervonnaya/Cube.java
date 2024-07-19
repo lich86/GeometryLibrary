@@ -1,6 +1,6 @@
 package com.chervonnaya;
 
-public record Cube(double sideLength) implements Comparable3DFigure{
+public record Cube(double sideLength) implements Comparable3DFigures {
 
     @Override
     public double getVolume() {

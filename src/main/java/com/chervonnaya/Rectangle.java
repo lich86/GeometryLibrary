@@ -1,7 +1,7 @@
 package com.chervonnaya;
 
 
-public record Rectangle(double height, double width) implements ComparableFigure {
+public record Rectangle(double height, double width) implements ComparableFigures {
 
     @Override
     public double getArea() {

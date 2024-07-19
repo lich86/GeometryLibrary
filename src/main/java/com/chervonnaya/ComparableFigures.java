@@ -1,6 +1,6 @@
 package com.chervonnaya;
 
-public interface ComparableFigure {
+public interface ComparableFigures {
     public double getArea();
     public double getPerimeter();
 }

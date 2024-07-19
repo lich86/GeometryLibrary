@@ -1,6 +1,6 @@
 package com.chervonnaya;
 
-public record Circle(double radius) implements ComparableFigure {
+public record Circle(double radius) implements ComparableFigures {
 
     @Override
     public double getArea() {

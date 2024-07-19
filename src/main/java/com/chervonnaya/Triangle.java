@@ -1,7 +1,7 @@
 package com.chervonnaya;
 
 
-public record Triangle(double side1, double side2, double side3) implements ComparableFigure {
+public record Triangle(double side1, double side2, double side3) implements ComparableFigures {
 
     @Override
     public double getArea() {

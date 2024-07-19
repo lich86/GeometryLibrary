@@ -1,6 +1,6 @@
 package com.chervonnaya;
 
-public record Sphere(double radius) implements Comparable3DFigure{
+public record Sphere(double radius) implements Comparable3DFigures {
 
     @Override
     public double getVolume() {
